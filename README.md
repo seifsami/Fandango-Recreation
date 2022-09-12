@@ -6,7 +6,7 @@ Original Article: https://fivethirtyeight.com/features/fandango-movies-ratings/
 
 About the dataset: Dataset obtained from [here](https://github.com/fivethirtyeight/data/tree/master/fandango). Data set contains information for Fandango's movie ratings, as well as data scraped from various other movie rating sites.
 
-I began by importing this dataset into Python, where then I cleaned it, performed analysis and created visualizations. [Full process is outlined here](https://github.com/seifsami/Fandango-Recreation/blob/main/FandangoDataAnalysisProject.ipynb)
+I began by importing this dataset into Python, where then I cleaned it, performed analysis and created visualizations. [Full process is outlined here.](https://github.com/seifsami/Fandango-Recreation/blob/main/FandangoDataAnalysisProject.ipynb)
 
 **Example Code**
 ```
