@@ -10,15 +10,17 @@ I began by importing this dataset into Python, where then I cleaned it, performe
 
 **Example Code**
 ```
-
-plt.figure(figsize=(14,6),dpi=200)
-sns.kdeplot(data=fandango,x='RATING',clip=[0,5],fill=True,label='True Rating')
-sns.kdeplot(data=fandango,x='STARS',clip=[0,5],fill=True,label='Stars Displayed')
-plt.legend(loc=(1.05,0.5))
+def move_legend(ax, new_loc, **kws):
+    old_legend = ax.legend_
+    handles = old_legend.legendHandles
+    labels = [t.get_text() for t in old_legend.get_texts()]
+    title = old_legend.get_title().get_text()
+    ax.legend(handles, labels, loc=new_loc, title=title, **kws)
+fig, ax = plt.subplots(figsize=(15,6),dpi=150)
+sns.kdeplot(data=norm_scores,clip=[0,5],shade=True,palette='Set1',ax=ax)
+move_legend(ax, "upper left")
 
 ```
 **Example Visualization**
-
-![Example Python Project](https://user-images.githubusercontent.com/97905607/189716108-f62f4554-e9f8-4f98-b95e-aeecbe133b32.png)
-
+![Example Python Project Alt](https://user-images.githubusercontent.com/97905607/189716902-8cf320ec-a500-4773-b399-3e55753be263.png)
 
