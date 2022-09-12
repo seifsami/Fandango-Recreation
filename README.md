@@ -11,7 +11,7 @@ I began by importing this dataset into Python, where then I cleaned it, performe
 **Example Code**
 ```
 
- plt.figure(figsize=(14,6),dpi=200)
+plt.figure(figsize=(14,6),dpi=200)
 sns.kdeplot(data=fandango,x='RATING',clip=[0,5],fill=True,label='True Rating')
 sns.kdeplot(data=fandango,x='STARS',clip=[0,5],fill=True,label='Stars Displayed')
 plt.legend(loc=(1.05,0.5))
