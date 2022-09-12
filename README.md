@@ -1,6 +1,6 @@
 # Fandango Recreation
 
-Description: A data analysis project attempting to recreate the article by FiveThirtyEight (https://fivethirtyeight.com/features/fandango-movies-ratings/) that showed popular website Fandango was inflating movie ratings. Completed using Python, specifically the libraries Pandas and Seaborn, amongst others. 
+Description: A data analysis project attempting to recreate the article by FiveThirtyEight that showed popular website Fandango was inflating movie ratings. Completed using Python, specifically the libraries Pandas and Seaborn, amongst others. 
 
 Original Article: https://fivethirtyeight.com/features/fandango-movies-ratings/
 
